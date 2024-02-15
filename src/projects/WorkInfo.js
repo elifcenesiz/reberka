@@ -32,7 +32,7 @@ const ProjectTextDiv = styled.div`
 `;
 
 const ProjectInfoText = styled.p`
-  font-size: 16px;
+  font-size: 20px;
   color: #000;
   font-weight: 300;
   text-align: left;

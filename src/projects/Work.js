@@ -21,7 +21,8 @@ const ProjectTextDiv = styled.div`
       justify-content: center;
       display: flex;
       margin-top: 80px;
-      font-size: 16px;
+      font-size: 20px;
+      margin-left: 0%;
 
       @media (max-width: 968px) {
             font-size: 14px;

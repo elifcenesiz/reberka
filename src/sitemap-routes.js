@@ -11,7 +11,7 @@ import i18n from './i18n';
 import { LanguageProvider } from './LanguageContext';
 import WorkInfoPage from './projects/WorkFieldInfoPage';
 import GalleryPage from './Gallery/GalleryPage';
-
+import WorkFieldPage from './projects/WorkFieldPage';
 
  
 export default (
@@ -22,6 +22,7 @@ export default (
     <Route path='/gallery' component={GalleryPage} />
     <Route path='/projects/:id' component={ProjectInfoPage} />
     <Route path='/workfield/:id' component={WorkInfoPage} />
+    <Route path='/workfield/' component={WorkFieldPage} />
     <Route path='/contact' component={ContactPage} />
     <Route path='/about' component={AboutPage} />
     </Route>

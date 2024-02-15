@@ -7,6 +7,7 @@
 <url> <loc>https://www.reberka.net/gallery</loc> </url>
 <url> <loc>https://www.reberka.net/projects/:id</loc> </url>
 <url> <loc>https://www.reberka.net/workfield/:id</loc> </url>
+<url> <loc>https://www.reberka.net/workfield</loc> </url>
 <url> <loc>https://www.reberka.net/contact</loc> </url>
 <url> <loc>https://www.reberka.net/about</loc> </url>
 </urlset>
