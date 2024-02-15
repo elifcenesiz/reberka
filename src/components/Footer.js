@@ -91,7 +91,7 @@ const Footer = () => {
             <SocialMedia>
               {t('getConnected')}
             </SocialMedia>
-            <a href='' className='me-4 text-reset'>
+            <a href='https://www.instagram.com/reberkainsaat?igsh=MzRlODBiNWFlZA==' className='me-4 text-reset'>
               <InstagramIcon style={iconStyle} />
             </a>
             <a href='' className='me-4 text-reset'>

@@ -403,7 +403,9 @@ const Navbar = () => {
           }
           <DropdownItem2 >
             <KeyboardArrowDownIcon style={{ height: "40px", width: "40px" }} onClick={handleChildElementClick2} />
+            <a href='/workfield' style={{ textDecoration: "none", color: "#fff" }}>
             {t('workingAreas')}
+            </a>
           </DropdownItem2>
           {
             isSideDropOpen2 &&
@@ -439,7 +441,7 @@ const Navbar = () => {
         <NavLink href="/about">{t('corporate')}</NavLink>
       </NavLinkBox>
       <DropdownNavLinkBox>
-        <NavLink onClick={toggleDropdown} >{t('workingAreas')}</NavLink>
+        <NavLink href ="/workfield" onClick={toggleDropdown} >{t('workingAreas')}</NavLink>
         <Dropdown isopen={isDropdownOpen.toString()}>
           < div className='container-fluid' >
             <div className='row'>

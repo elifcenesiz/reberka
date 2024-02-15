@@ -58,6 +58,11 @@ const WorkInfoPage = () => {
 
       }, [id]);
 
+      useEffect(() => {
+            window.scrollTo(0, 0)
+      }
+      , [])
+
 
       return (
             <div className="work-info-page">
@@ -73,7 +78,7 @@ const WorkInfoPage = () => {
                         </div>
                   </Banner>
                   <BackgroundOverlay>
-                  <div className="row" style={{ height: "100%", alignContent: "center", justifyContent: "center", alignItems: "center", display: "flex", flexDirection: "column", marginBottom: "150px", marginTop: "-200px" }}>
+                  <div className="row" style={{ height: "100%", alignContent: "center", justifyContent: "center", alignItems: "center", display: "flex", flexDirection: "column", marginBottom: "50px", marginTop: "-200px" }}>
                         <WorkInfo id={id} />
                   </div>
                   </BackgroundOverlay>

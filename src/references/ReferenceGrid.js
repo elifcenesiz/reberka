@@ -237,7 +237,7 @@ const ReferenceGrid = () => {
       image: "../logo/kolin-logo.jpeg",
     },
     {
-      text: "TC Adliye Bakanlığı",
+      text: "TC Adalet Bakanlığı",
       image: "../logo/tc-adliye-bakanligi-logo.jpeg",
     },
     {

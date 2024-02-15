@@ -16,6 +16,7 @@ import i18n from './i18n';
 import { LanguageProvider } from './LanguageContext';
 import WorkInfoPage from './projects/WorkFieldInfoPage';
 import GalleryPage from './Gallery/GalleryPage';
+import WorkFieldPage from './projects/WorkFieldPage';
 //import ScrollToTop from './components/ScrollToTop';
 
 
@@ -33,6 +34,7 @@ function App() {
               <Route path="/gallery" element={<GalleryPage />} />
               <Route path="/projects/:id" element={<ProjectInfoPage />} />
               <Route path="/workfield/:id" element={<WorkInfoPage/>} /> 
+              <Route path="/workfield" element={<WorkFieldPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/about" element={<AboutPage />} />
 

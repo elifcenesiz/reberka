@@ -257,6 +257,11 @@ i18n
             success: 'Mesajınız başarıyla gönderildi.',
             error1: 'Lütfen zorunlu alanları doldurunuz: \n isim, telefon, e-posta',
             error2: 'Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.',
+
+            
+
+            
+
                         
 
         },

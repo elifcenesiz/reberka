@@ -16,7 +16,7 @@ const workFields =
       {
             id: 3,
             title: 'projectContacting',
-            description: 'projectContactingDescription',
+            description: 'projectContractingDescription',
             category: "projectContacting",
       },
       {
@@ -39,15 +39,15 @@ const workFields =
       },
       {
             id: 7,
-            title: 'healthFacilityConstruction',
-            description: 'healthFacilityConstructionDescription',
-            category: "healthFacilityConstruction",
-      },
-      {
-            id: 8,
             title: 'industrialPlantInfrastructureConstruction',
             description: 'industrialPlantInfrastructureConstructionDescription',
             category: "industrialPlantInfrastructureConstruction",
+      },
+      {
+            id: 8,
+            title: 'healthFacilityConstruction',
+            description: 'healthFacilityConstructionDescription',
+            category: "healthFacilityConstruction",
       },
       {
             id: 9,
